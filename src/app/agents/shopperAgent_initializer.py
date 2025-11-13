@@ -6,7 +6,9 @@ from azure.identity import DefaultAzureCredential
 from azure.ai.agents.models import CodeInterpreterTool,FunctionTool, ToolSet
 from typing import Callable, Set, Any
 import json
-from dotenv import load_dotenv
+from dotenv import 
+
+# Update shopperAgent for wf run.
 load_dotenv()
 
 CORA_PROMPT_TARGET = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'prompts', 'ShopperAgentPrompt.txt')

@@ -8,6 +8,8 @@ from typing import Callable, Set, Any
 from tools.discountLogic import calculate_discount
 # from tools.aiSearchTools import product_data_ai_search
 from dotenv import load_dotenv
+
+# update env from .env file
 load_dotenv()
 
 CL_PROMPT_TARGET = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'prompts', 'CustomerLoyaltyAgentPrompt.txt')

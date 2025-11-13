@@ -899,6 +899,7 @@ async def websocket_endpoint(websocket: WebSocket):
 if __name__ == "__main__":
     import datetime
     import atexit
+    import os
     
     # Register cleanup function
     def cleanup():
